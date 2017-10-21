@@ -1,0 +1,815 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"defs	Method"
+			],
+			[
+				"audit",
+				"auditoria"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"setE",
+				"setEstadoAgente"
+			],
+			[
+				"PRI",
+				"print_r"
+			],
+			[
+				"VA",
+				"var_dump"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"sw",
+				"switch	PHP: switch statement"
+			],
+			[
+				"asp",
+				"asp_codigo"
+			],
+			[
+				"loca",
+				"localhost"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"corre",
+				"correounivalle"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"url",
+				"url_foto"
+			],
+			[
+				"data",
+				"dataPost"
+			],
+			[
+				"filein",
+				"fileinput"
+			],
+			[
+				"sele",
+				"select2"
+			],
+			[
+				"va",
+				"val"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "pasos para la creación de un proyecto de django\n\n1. Creamos un directorio para el proyecto\n\n	- virtualenv (nombre)\n\n2. activamos el virtualenv\n	- source Scripts/activate\n\n3. pip freeze -> retorna lo que tengo instalado en el virtualenv\n4. Instalo django con \n	- pip install django\n\n5. iniciamos la creación de un proyecto\n	- python Scripts/django-admin.py startproject prueba\n	- python manage.py startproject www\n	- django-admi startproject nombre .\n\n6. cd directorio del proyecto -> podemos cambiar el directorio por src\n7. python manage.py runserver\n8. python manage.py migrate\n\n\n9. Creamos el superuser que administrara la app\n	- winpty python manage.py createsuperuser\n\n10. creamos las aplicaciones\n	- python manage.py startapp participantes\n\n	/*****************************************************/\n		ejecutar  las migraciones con:\n		- python manage.py makemigrations\n		- python manage.py migrate\n\n	/****************************************************/\n\n\n	more infoe: https://www.codingforentrepreneurs.com/blog/create-a-blank-django-project/",
+			"file": "/C/xampp/htdocs/Django/iniciar proyecto.txt",
+			"file_size": 1049,
+			"file_write_time": 131530782125952028,
+			"settings":
+			{
+				"buffer_size": 1048,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/__init__.py",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows",
+				"name": "from .base import *"
+			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/settings.py",
+			"settings":
+			{
+				"buffer_size": 3113,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 3113,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/production.py",
+			"settings":
+			{
+				"buffer_size": 3113,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/local.py",
+			"settings":
+			{
+				"buffer_size": 3113,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/Recad-www/projectwww/requirements.txt",
+		"/C/xampp/htdocs/Recad-www/README.txt",
+		"/C/xampp/htdocs/Django/project_django/www/prueba/prueba/settings.py",
+		"/C/xampp/htdocs/Django/project_django/www/prueba/settings/__init__.py",
+		"/C/xampp/htdocs/Django/curso_python/src/participantes/views.py",
+		"/C/xampp/htdocs/Django/curso_python/src/www/settings.py",
+		"/C/xampp/htdocs/Django/curso_python/src/participantes/admin.py",
+		"/C/xampp/htdocs/Django/curso_python/iniciar proyecto.txt",
+		"/C/xampp/htdocs/Django/curso_python/src/participantes/models.py",
+		"/C/xampp/htdocs/Django/curso_python/src/db.sqlite3",
+		"/C/xampp/htdocs/Django/curso_python/src/participantes/__init__.py",
+		"/C/xampp/htdocs/AMX/AS-VENTAS/temporalsalvajina/module/ORM/src/ORM/Repository/PedidoRepository.php",
+		"/C/xampp/htdocs/AMX/AS-VENTAS/temporalsalvajina/module/Pedido/src/Pedido/Controller/PedidoController.php",
+		"/F/TRABAJO/Manuales Trabajo - Bases/MANUALES/para pruebas específicas.html",
+		"/C/xampp/htdocs/AdminBSBMaterialDesign/pages/forms/basic-form-elements.html",
+		"/C/xampp/htdocs/AdminBSBMaterialDesign/pages/ui/tabs.html",
+		"/C/xampp/htdocs/AdminBSBMaterialDesign/pages/tables/jquery-datatable.html",
+		"/C/xampp/htdocs/AdminBSBMaterialDesign/pages/tables/normal-tables.html",
+		"/F/Download/inscripciones.univalle.edu.co 2017-10-19/inscripciones.univalle.edu.co 2017-09-28/interno/inscripciones.univalle.edu.co/index.html",
+		"/C/xampp/htdocs/xgf/src/RolesBundle/Controller/DefaultController.php",
+		"/C/xampp/php/php.ini",
+		"/C/Users/Univalle_F/AppData/Local/Temp/plt-sendurl-contents-file-15080243371508024337840.html",
+		"/C/xampp/htdocs/AMX/AS-VENTAS/temporalsalvajina/module/Producto/src/Producto/Controller/ProductoController.php",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/PROCESOS/AA SEDES/SEDES AD2008/ins_sed.txt",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/PROCESOS/AA SEDES/SEDES AD2009/insc_sede.txt",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/PROCESOS/AA SEDES/SEDES FJ2008/insc.txt",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/PROCESOS/AA SEDES/SEDES FJ2008/insc_Sed_fin.txt",
+		"/C/xampp/htdocs/xgf/app/config/routing.yml",
+		"/C/xampp/htdocs/xgf/composer.json",
+		"/C/xampp/htdocs/xgf/comandos para symfony.php",
+		"/C/xampp/htdocs/xgf/src/PreguntasBundle/Controller/DefaultController.php",
+		"/C/xampp/htdocs/xgf/src/CategoriaBundle/Controller/DefaultController.php",
+		"/C/xampp/htdocs/xgf/src/CategoriaBundle/Resources/views/Default/index.html.twig",
+		"/C/xampp/htdocs/Django/probardjango/src/probardjango/settings.py",
+		"/C/xampp/htdocs/Django/probardjango/src/boletin/admin.py",
+		"/C/xampp/htdocs/Django/probardjango/src/boletin/apps.py",
+		"/C/xampp/htdocs/Django/probardjango/src/boletin/models.py",
+		"/C/xampp/htdocs/Django/probardjango/src/boletin/views.py",
+		"/C/xampp/htdocs/Django/probardjango/src/probardjango/urls.py",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp42497/var/www/sitios/admisiones/htdocs/https/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp25159/var/www/sitios/admisiones/htdocs/https/aplicacion/lib/connectBD.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp39008/var/www/sitios/admisiones/htdocs/https/WebService/EstudiantesCupoLibreMaterias.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/pregrado/AUTORIZAR Matriculados Cupo Libre para Milena.txt",
+		"/C/xampp/htdocs/xgf/web/assets/js/controladores/categoria.js",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp32253/var/www/sitios/admisiones/htdocs/https/WebService/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp46482/var/www/sitios/admisiones/htdocs/https/aplicacion/WebService/Index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp10490/etc/httpd/conf/httpd.conf",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp15330/var/www/sitios/admisiones/htdocs/https/aplicacion/lib/sql.inc",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp43650/var/www/sitios/admisiones/htdocs/https/aplicacion/lib/globals.php",
+		"/C/Users/Univalle_F/Downloads/connectBD.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp45727/var/www/sitios/admisiones/htdocs/https/aplicacion/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp46783/var/www/sitios/admisiones/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/C/xampp/htdocs/Django/probardjango/src/templates/inicio.html",
+		"/C/xampp/htdocs/Django/probardjango/src/boletin/tests.py",
+		"/C/xampp/htdocs/xgf/web/assets/js/controladores/persona.js",
+		"/C/xampp/htdocs/xgf/web/assets/js/controladores/roles.js",
+		"/C/xampp/htdocs/xgf/web/assets/js/controladores/universal.js",
+		"/C/xampp/htdocs/xgf/src/EntidadesBundle/Repository/RolesRepository.php",
+		"/C/xampp/htdocs/xgf/web/assets/js/httpPetition.js",
+		"/C/Users/Univalle_F/Downloads/dump(6).csv",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp40189/var/www/httpd.conf",
+		"/C/xampp/htdocs/xgf/src/EntidadesBundle/Repository/CategoriasRepository.php",
+		"/C/Users/Univalle_F/Downloads/jquery-ajax-autocomplete-country-example/readCountry.php",
+		"/F/TRABAJO/ADMINISTRADOR WEB - ADMISIONES/REPORTES BD/Matriculados Cupo Libre para Milena.txt",
+		"/C/Users/Univalle_F/Downloads/jquery-ajax-autocomplete-country-example/index.php",
+		"/C/Users/Univalle_F/Downloads/chosen_v1.8.2/index.html",
+		"/C/Users/Univalle_F/Downloads/dump(5).csv",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp42042/home/servidor/apache/htdocs/https/aplicacion/lib/valida.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/pregrado/Cupo libre depurado final para cargar.txt",
+		"/C/Users/Univalle_F/Downloads/jquery-ajax-autocomplete-country-example/dbcontroller.php",
+		"/C/xampp/htdocs/Django/probardjango/src/manage.py",
+		"/C/xampp/htdocs/xgf/src/PersonasBundle/Controller/DefaultController.php",
+		"/C/Users/Univalle_F/Downloads/dump(3).csv",
+		"/F/TRABAJO/Manuales Trabajo - Bases/MANUALES/EXAMEN PROFICIENCIA/monitoresparaexamenproficiencia.sql",
+		"/F/TRABAJO/Manuales Trabajo - Bases/MANUALES/EXAMEN PROFICIENCIA/monitores.csv",
+		"/C/xampp/htdocs/Django/probardjango/src/db.sqlite3",
+		"/C/Users/Univalle_F/Downloads/dump(1).csv",
+		"/C/Users/Univalle_F/Downloads/dump(2).csv",
+		"/C/xampp/htdocs/Django/probardjango/Scripts/django-admin.py",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp36483/home/servidor/apache/htdocs/https/aplicacion/phppgadmin/conf/config.inc.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp37482/var/www/admisiones/aplicacion/aplicacion.txt",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp43690/var/www/admisiones/restoreBD.sh",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp16416/home/servidor/aplicacion.tgz",
+		"/F/Download/REPORTE-digitador_admon-planoamat.financieradelformulariocorto-cali-ID (1).txt",
+		"/C/xampp/htdocs/AMX/xgf/xgf.sql",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp39904/home/servidor/apache/htdocs/https/aplicacion/WebService/index.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/Sql para cupo libre Webmatfin.sql",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp16091/home/servidor/apache/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/C/Users/Univalle_F/Downloads/Cupo Libre Datos Sedes.csv",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp06822/home/servidor/apache/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp58302/home/servidor/apache/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp46269/home/servidor/apache/htdocs/https/aplicacion/WebService/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp55555/home/servidor/apache/htdocs/html/new/transferencia/docs_transferencia/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp16928/home/servidor/apache/htdocs/html/new/transferencia/docs_transferencia/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp11866/home/servidor/apache/htdocs/html/new/transferencia/docs_transferencia/index.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/BDcupos.sql",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/Cupo libre depurado final para cargar.txt",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp43251/home/servidor/apache/htdocs/https/aplicacion/WebService/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp25795/home/servidor/apache/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/WebserviceMatfin_cupolib",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/descarga pg_dump tabla",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp15121/home/servidor/apache/htdocs/https/aplicacion/WebService/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp10191/home/servidor/apache/htdocs/https/aplicacion/WebService/EstudiantesCupoLibreMaterias.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp27729/var/www/admisiones/htdocs/https/index.php",
+		"/F/TRABAJO/Scripts procesos/WsCupo libre/WebserviceMatfin_cupolib_final.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp10226/home/servidor/apache/htdocs/https/aplicacion/WebService/Index.php",
+		"/C/xampp/htdocs/AMX/index.php",
+		"/F/Download/REPORTE-digitador_admon-planoamat.financieradelformulariocorto-cali-ID.txt",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp28403/etc/httpd/conf/httpd.conf",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp04432/etc/httpd/conf/httpd.conf",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp15796/etc/hostname",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp11046/etc/hosts",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp10025/etc/hosts.allow",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp05460/var/www/admisiones/htdocs/https/index.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp23101/var/www/logs/admisiones_django.80-error_log",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp23877/var/www/logs/admisiones_django.80-access_log",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp04708/var/www/logs/admisiones.80-access_log",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp13736/etc/httpd/conf/httpd.conf",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp09788/var/www/logs/admisiones_python.80-access_log",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/Scripts procesos/wsposgrado/CREATE TABLE tmp_posgra.txt",
+		"/C/Users/Univalle_F/Downloads/posgra_2017-08-30.sql",
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/Scripts procesos/wsposgrado/Admitios_posgrado_Milena.sql",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp59268/etc/php.ini",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp14350/home/servidor/apache/htdocs/https/aplicacion/phpinfo.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp15191/home/servidor/apache/htdocs/https/aplicacion/olakease.php",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp34080/home/servidor/php/php.ini",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp19602/var/www/php.ini",
+		"/C/Users/Univalle_F/AppData/Local/Temp/scp53965/var/www/logs/admisiones.80-error_log"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"boton_add_opcion_pc",
+			"id_pm_opcion",
+			"opcion_pm",
+			"boton_add_opcion_pm",
+			"opciones_preguntas_pm",
+			"botones_pm",
+			"opcion_pm",
+			"id_pm_opcion",
+			"opcion_pm",
+			"boton_add_opcion_pc",
+			"opciones_preguntas_pc",
+			"botones_pc",
+			"id_pc_opcion",
+			"opcion_pc",
+			"botones",
+			"pm2",
+			"pm1",
+			"Crear",
+			"nuevo",
+			"elim",
+			"bor",
+			"EXAMPLE TAB",
+			"EXAMPLE TAB ",
+			"3249*",
+			"*3249*07",
+			"*3249*",
+			",",
+			"owing 1 to 10 ",
+			"	",
+			"gene_datos_ws_matfin",
+			"ws",
+			"<?",
+			"<? echo (\"$dir_default_server\");?>",
+			"p1o2s3t4GRES!?",
+			"localhost",
+			"1144134122",
+			"27473285",
+			"1130649424",
+			"6402655",
+			"1112103742",
+			"1061784785",
+			"16675326",
+			"16675326\n",
+			"18003620",
+			"16274485",
+			"1130604831",
+			"34516892",
+			"31529497",
+			"29291343",
+			"66886219",
+			"94459496",
+			"38610519",
+			"66738529",
+			"16928538",
+			"30234066",
+			"16735101",
+			"VILLALOBOS BERMUDEZ",
+			"\",\"",
+			"	",
+			"*",
+			"	2017",
+			"country",
+			"selectCountry",
+			"chosen",
+			"Into This",
+			"	",
+			".",
+			"201717068",
+			"prueba",
+			"	",
+			".",
+			"505405M\n",
+			"MATFIN_CUPO",
+			"alias",
+			"192.168.240.101:",
+			"127.0.0.1",
+			"localhost",
+			"alias",
+			"LoadModule wsgi",
+			"LoadModule wsgi_module modules/mod_wsgi.so",
+			"zend_extension",
+			"zend_extension=opcache.so",
+			"pgsql",
+			"extension_",
+			"error",
+			"pdo_pgsql.so",
+			"extension=pdo_pgsql.so",
+			"opca",
+			"pgsql",
+			"extension_dir",
+			"pgsql",
+			"enablereuse",
+			"prox",
+			"cgi",
+			"MaxClients",
+			"fcgi",
+			"DocumentRoot",
+			"MinSpa",
+			"fcgi",
+			"/var/www/admisiones/htdocs/html",
+			"/var/www/htdocs/html",
+			"opcache",
+			"error_reporting",
+			"timezone",
+			"disable_functions",
+			"open_basedir",
+			"short_open_tag",
+			"work",
+			"pref",
+			"prefo",
+			"prefor",
+			"worke",
+			"apxs2",
+			"sql",
+			"pgs",
+			"extension_dir",
+			"extensi",
+			"5.6.31",
+			"pgsql",
+			"extension_dir",
+			"pgsql",
+			"date_default_timezone_set",
+			"www",
+			"LoadModule php5_module /",
+			"LoadModule php5_module /etc/httpd/modules/libphp5.so",
+			"SetHandler",
+			"FilesMatch",
+			"mod_w"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Editar",
+			"editar",
+			".",
+			"','",
+			"../aplicacion",
+			"DibiSezaDacuWeta452",
+			"192.168.239.101",
+			"*",
+			"','",
+			"*2017",
+			"*",
+			",",
+			"','",
+			"",
+			"192.168.240.101",
+			"127.0.0.1",
+			"/var/www/admisiones/htdocs/html",
+			",",
+			"/var/www/",
+			"",
+			"*",
+			"$rol=='Digitador_externo' || $rol=='Usuario_externo'",
+			".",
+			" ",
+			"*",
+			"','",
+			" ",
+			"','",
+			"2017",
+			"201708041",
+			"0",
+			"14",
+			"21",
+			"",
+			"0",
+			"",
+			"PROFUNDIZACION",
+			"INVESTIGACION",
+			"*",
+			"201708041",
+			"201707051",
+			"",
+			"'00')",
+			"",
+			"*",
+			"",
+			"*",
+			"','",
+			"swebse29",
+			"",
+			"*",
+			" ",
+			"*",
+			"201708041",
+			"-",
+			"*",
+			"','",
+			"*",
+			"",
+			"                                 ",
+			"ADMITIDO 1er LLAMADO     AGOSTO/2017 - DICIEMBRE/2017",
+			"",
+			"log_auditoria",
+			"Tabla",
+			"Operacion",
+			"ViejoValor",
+			"NuevoValor",
+			"Tabla",
+			"Usuario",
+			"",
+			"+",
+			".addActionListener(escucha);",
+			"",
+			"'",
+			"=",
+			"$",
+			"",
+			"M",
+			"F",
+			"*00*",
+			"*",
+			" ",
+			"swebse32",
+			" ",
+			"file",
+			"','",
+			"'",
+			" || $prog == ",
+			"','",
+			",",
+			"'",
+			"-",
+			"",
+			"<",
+			">",
+			"'",
+			"*",
+			"",
+			"<li>",
+			"<span style=\"font-weight: bold\">",
+			".",
+			"",
+			"}",
+			"swebse29",
+			" ",
+			"*",
+			"','",
+			"",
+			"INSTITUTO DE EDUCACIÓN Y PSICOLOGíA",
+			"CIENCIAS",
+			"ARTES INTEGRADAS",
+			"HUMANIDADES",
+			"SALUD",
+			"ADMINISTRACIÓN",
+			"INGENIERÍA",
+			"J200",
+			"J201",
+			"D201",
+			"D200",
+			" ",
+			"",
+			"','",
+			"*",
+			"",
+			"*",
+			"",
+			"2017",
+			"TRUE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/Django/iniciar proyecto.txt",
+					"settings":
+					{
+						"buffer_size": 1048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cfehome/src/cfhome/settings/__init__.py",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from .base import *",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cfehome/src/cfhome/settings/settings.py",
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cfehome/src/cfhome/settings/base.py",
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cfehome/src/cfhome/settings/production.py",
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cfehome/src/cfhome/settings/local.py",
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3113,
+								3113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true
+}
