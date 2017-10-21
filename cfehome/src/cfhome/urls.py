@@ -16,6 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+#importo la vista
+from retaurants.views import home, home1, home2
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', home),
+    url(r'^home1/$', home1),
+    url(r'^home2/$', home2),
 ]

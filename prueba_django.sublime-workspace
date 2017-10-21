@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"if	<?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"hom",
+				"home2"
+			],
+			[
+				"home",
+				"home1"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
 				"def",
 				"defs	Method"
 			],
@@ -88,30 +104,26 @@
 	"buffers":
 	[
 		{
-			"contents": "pasos para la creación de un proyecto de django\n\n1. Creamos un directorio para el proyecto\n\n	- virtualenv (nombre)\n\n2. activamos el virtualenv\n	- source Scripts/activate\n\n3. pip freeze -> retorna lo que tengo instalado en el virtualenv\n4. Instalo django con \n	- pip install django\n\n5. iniciamos la creación de un proyecto\n	- python Scripts/django-admin.py startproject prueba\n	- python manage.py startproject www\n	- django-admi startproject nombre .\n\n6. cd directorio del proyecto -> podemos cambiar el directorio por src\n7. python manage.py runserver\n8. python manage.py migrate\n\n\n9. Creamos el superuser que administrara la app\n	- winpty python manage.py createsuperuser\n\n10. creamos las aplicaciones\n	- python manage.py startapp participantes\n\n	/*****************************************************/\n		ejecutar  las migraciones con:\n		- python manage.py makemigrations\n		- python manage.py migrate\n\n	/****************************************************/\n\n\n	more infoe: https://www.codingforentrepreneurs.com/blog/create-a-blank-django-project/",
-			"file": "/C/xampp/htdocs/Django/iniciar proyecto.txt",
-			"file_size": 1049,
-			"file_write_time": 131530782125952028,
+			"file": "cfehome/src/retaurants/views.py",
 			"settings":
 			{
-				"buffer_size": 1048,
+				"buffer_size": 625,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "cfehome/src/cfhome/settings/__init__.py",
+			"file": "cfehome/src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 92,
-				"line_ending": "Windows",
-				"name": "from .base import *"
+				"buffer_size": 106,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "cfehome/src/cfhome/settings/settings.py",
+			"file": "cfehome/src/cfhome/urls.py",
 			"settings":
 			{
-				"buffer_size": 3113,
+				"buffer_size": 910,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,15 +131,23 @@
 			"file": "cfehome/src/cfhome/settings/base.py",
 			"settings":
 			{
-				"buffer_size": 3113,
+				"buffer_size": 3148,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "cfehome/src/cfhome/settings/production.py",
+			"file": "cfehome/src/templates/home1.html",
 			"settings":
 			{
-				"buffer_size": 3113,
+				"buffer_size": 144,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cfehome/src/templates/home2.html",
+			"settings":
+			{
+				"buffer_size": 145,
 				"line_ending": "Windows"
 			}
 		},
@@ -138,6 +158,14 @@
 				"buffer_size": 3113,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "cfehome/src/cfhome/settings/__init__.py",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -146,8 +174,16 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 416.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -164,7 +200,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Univalle_F/AppData/Roaming/Sublime Text 2/Packages/User/HTML (Django).sublime-settings",
+		"/C/xampp/htdocs/Django/iniciar proyecto.txt",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/cfhome/settings/__init__.py",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/cfhome/settings/production.py",
 		"/C/xampp/htdocs/Recad-www/projectwww/requirements.txt",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/requirements.txt",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/cfhome/settings/settings.py",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/cfhome/settings/base.py",
+		"/C/xampp/htdocs/Django/prueba_django/cfehome/src/cfhome/settings/local.py",
 		"/C/xampp/htdocs/Recad-www/README.txt",
 		"/C/xampp/htdocs/Django/project_django/www/prueba/prueba/settings.py",
 		"/C/xampp/htdocs/Django/project_django/www/prueba/settings/__init__.py",
@@ -283,15 +327,7 @@
 		"/C/Users/Univalle_F/AppData/Local/Temp/scp04708/var/www/logs/admisiones.80-access_log",
 		"/C/Users/Univalle_F/AppData/Local/Temp/scp13736/etc/httpd/conf/httpd.conf",
 		"/C/Users/Univalle_F/AppData/Local/Temp/scp09788/var/www/logs/admisiones_python.80-access_log",
-		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/Scripts procesos/wsposgrado/CREATE TABLE tmp_posgra.txt",
-		"/C/Users/Univalle_F/Downloads/posgra_2017-08-30.sql",
-		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/Scripts procesos/wsposgrado/Admitios_posgrado_Milena.sql",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp59268/etc/php.ini",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp14350/home/servidor/apache/htdocs/https/aplicacion/phpinfo.php",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp15191/home/servidor/apache/htdocs/https/aplicacion/olakease.php",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp34080/home/servidor/php/php.ini",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp19602/var/www/php.ini",
-		"/C/Users/Univalle_F/AppData/Local/Temp/scp53965/var/www/logs/admisiones.80-error_log"
+		"/F/TRABAJO/ADMINISTRADOR INSCRIPCIONES/Scripts procesos/wsposgrado/CREATE TABLE tmp_posgra.txt"
 	],
 	"find":
 	{
@@ -582,55 +618,27 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/Django/iniciar proyecto.txt",
+					"file": "cfehome/src/retaurants/views.py",
 					"settings":
 					{
-						"buffer_size": 1048,
+						"buffer_size": 625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								448,
+								444,
 								448
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "cfehome/src/cfhome/settings/__init__.py",
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"auto_name": "from .base import *",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -640,26 +648,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "cfehome/src/cfhome/settings/settings.py",
+					"buffer": 1,
+					"file": "cfehome/src/templates/base.html",
 					"settings":
 					{
-						"buffer_size": 3113,
+						"buffer_size": 106,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								3113
+								89,
+								89
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cfehome/src/cfhome/urls.py",
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -672,15 +705,15 @@
 					"file": "cfehome/src/cfhome/settings/base.py",
 					"settings":
 					{
-						"buffer_size": 3113,
+						"buffer_size": 3148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								3113
+								1676,
+								1676
 							]
 						],
 						"settings":
@@ -690,41 +723,65 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 631.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "cfehome/src/cfhome/settings/production.py",
+					"file": "cfehome/src/templates/home1.html",
 					"settings":
 					{
-						"buffer_size": 3113,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								3113
+								144,
+								144
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 631.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "cfehome/src/templates/home2.html",
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "cfehome/src/cfhome/settings/local.py",
 					"settings":
 					{
@@ -735,8 +792,8 @@
 						"selection":
 						[
 							[
-								3113,
-								3113
+								0,
+								0
 							]
 						],
 						"settings":
@@ -746,7 +803,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 631.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "cfehome/src/cfhome/settings/__init__.py",
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -785,6 +868,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
 	"replace":
 	{
 		"height": 62.0
